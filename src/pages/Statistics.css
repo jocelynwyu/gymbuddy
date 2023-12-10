@@ -1,0 +1,75 @@
+.statistics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px; /* Ensure the container takes the full height of the viewport */
+  }
+  
+  .statistics {
+    text-align: center;
+    letter-spacing: 8px; /* Adjust the spacing as needed */
+  }
+  
+
+.text{
+    text-align: center;
+    color: rgb(94, 94, 94);
+    /* font-style: italic; */
+    font-weight: 400;
+    letter-spacing: 1px;
+    /* left: 100px; */
+    /* margin-left: 39%; */
+
+}
+
+.school-images{
+    width: 250px;
+    object-fit: cover;
+}
+
+.each{
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    align-items: center;
+    grid-gap: 100px;
+}
+
+.statistics-container > h1 {
+    color: #000000;
+    font-size: 100px;
+}
+
+.school-rows {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .number-container {
+    display: flex;
+    align-items: center;
+  }
+
+  
+  .plus-sign {
+    font-size: 27px; /* Adjust the font size as needed */
+    margin-left: 5px; /* Add some space between the number and the plus sign */
+  }
+
+  @media only screen and (max-width: 860px) {
+    .school-images {
+        flex-direction: column; /* Stack images vertically on smaller screens */
+        align-items: center;
+        margin-left: 0%;
+    }
+
+    .school-rows {
+        flex-direction: column; /* Stack rows vertically on smaller screens */
+        align-items: center;
+        max-width: none; /* Remove max-width for responsiveness */
+    }
+}

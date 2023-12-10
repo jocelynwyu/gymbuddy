@@ -1,0 +1,65 @@
+.contact-container {
+    background: black;
+    height: 400px;
+    width: 100%;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.button-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    max-width: 1500px;
+  }
+  
+.contact-container > h1 {
+    color: #000000;
+    font-size: 100px;
+} 
+
+.title{
+    color: #00ACDE;
+    font-style: bold;
+    font-size: 17px;
+    margin-left: 12%;
+}
+
+.become{
+    color: white;
+    font-style: bold;
+    font-size: 35px;
+    margin-left: 12%;
+}
+
+.email{
+   color: white;
+   font-size: 15px;
+   margin-left: 12%;
+   font-weight: lighter;
+}
+  
+  /* Social Icons */
+  .social-icon-link {
+    color: #fff;
+    font-size: 30px;
+
+  }
+
+  .social-media-wrap {
+    display: inline;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    grid-gap: 25px;
+    margin-left: 12%;
+
+  }

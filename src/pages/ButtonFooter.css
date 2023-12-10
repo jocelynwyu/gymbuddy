@@ -1,0 +1,47 @@
+:root {
+    --primary: #fff;
+  }
+  
+  .btn_footer {
+    padding: 8px 20px;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary_footer {
+    background-color: var(--primary);
+    color: #242424;
+    border: 1px solid var(--primary);
+  }
+  
+  .btn--outline_footer {
+    background-color: white;
+    color: #fff;
+    padding: 8px 20px;
+    transition: all 0.3s ease-out;
+    color: #242424;
+    border-radius: 10px;
+  }
+  
+  .btn--medium_footer {
+    font-size: 15px;
+    border-radius: 15px;
+    width: 150px;
+    height: 45px;
+}
+  
+  .btn--large_footer {
+    padding: 12px 26px;
+    font-size: 12px;
+  }
+  
+  .btn--large_footer:hover,
+  .btn--medium_footer:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+    
+  }

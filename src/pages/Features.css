@@ -1,0 +1,70 @@
+/* image{
+    object-fit: cover;
+    width: 100vh;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+} */
+
+.feature-container {
+    background: #4CC5E8;
+    height: 500px;
+    width: 100%;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2); */
+    object-fit: contain;
+}
+
+.intro{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    left: 100px;
+}
+
+.feature-container > h1 {
+    color: #000000;
+    font-size: 100px;
+} 
+
+/* @media screen and (max-width: 760px) {
+    .intro{
+        text-align: center;
+        color: #fff;
+        font-family: 'Playfair Display Regular 400 Italic', serif;
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 0.9rem;
+        left: 100px;
+        margin-top: -20px;
+    }
+
+    .contact-info{
+        text-align: center;
+        color: #fff;
+        font-family: 'Playfair Display Regular 400 Italic', serif;
+        font-weight: lighter;
+        text-shadow: inset 0 0 0 1000px rgba(0,0,0,0);
+        font-size: 0.9rem;
+        margin-top: -40px;
+    }
+    
+    .contact-info p{
+        margin-bottom: 17px;
+        color: #fff;
+        font-weight: lighter;
+    }
+    .hero-container {
+        background: url('./images/ocean-image.jpg') center center/cover no-repeat;
+        width: 100%;
+        left: 000px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+    }
+} */

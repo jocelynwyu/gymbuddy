@@ -1,0 +1,42 @@
+.about-container {
+    background: white;
+    height: 500px;
+    width: 100%;
+    /* left: 500px; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2); */
+    object-fit: contain;
+    /* margin-top: 500px; */
+}
+
+.about-container > h1 {
+    color: #000000;
+    font-size: 100px;
+} 
+
+.about{
+    color: #00ACDE;
+    font-style: bold;
+    font-size: 17px;
+    margin-left: 12%;
+}
+
+.made{
+    color: black;
+    font-style: bold;
+    font-size: 35px;
+    margin-left: 12%;
+    margin-right: 10%;
+}
+
+.about-text{
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    left: 100px;
+    font-weight: lighter;
+    margin-left: 12%;
+    margin-right: 40%;
+}
